@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.7.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Interface_Frontend_Default_Blank</name>
+ <channel>connect.magentocommerce.com/core</channel>
+ <summary>This is a sample skeleton theme for Magento designers.</summary>
+ <description>This is a sample skeleton theme for Magento designers.</description>
+ <lead>
+  <name>Magento Core Team</name>
+  <user>core</user>
+  <email>core@magentocommerce.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2009-07-01</date>
+ <time>23:31:19</time>
+ <version>
+  <release>1.3.2.2</release>
+  <api>1.3.2.2</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://opensource.org/licenses/afl-3.0.php">AFL v3.0</license>
+ <notes>1.3.2.2</notes>
+ <contents>
+  <dir name="/">
+   <dir name="frontend">
+    <dir name="default">
+     <dir name="blank">
+      <dir name="css">
+       <file md5sum="6f84e5b5d1cb4cf9f0b125e07266eb3d" name="clears.css" role="mageskin" />
+       <file md5sum="1839347706087be0a9c2e3088e5f2f1d" name="print.css" role="mageskin" />
+       <file md5sum="1cb4d163078e702ce42d15a5be3b407e" name="reset.css" role="mageskin" />
+       <file md5sum="c9de7e2f80cd70eced4c86421b383da3" name="styles-ie.css" role="mageskin" />
+       <file md5sum="2dff2af45c179af4870b2ed88cbb23be" name="styles.css" role="mageskin" />
+      </dir> <!-- //frontend/default/blank/css -->
+      <dir name="images">
+       <dir name="catalog">
+        <dir name="product">
+         <dir name="placeholder">
+          <file md5sum="097ab8a3051bc037ea3de0e17f440540" name="image.jpg" role="mageskin" />
+          <file md5sum="f825d16f97a640453553c79c48ebaa73" name="small_image.jpg" role="mageskin" />
+          <file md5sum="b2b682d28a08a748a73d2cda70ab5a57" name="thumbnail.jpg" role="mageskin" />
+         </dir> <!-- //frontend/default/blank/images/catalog/product/placeholder -->
+        </dir> <!-- //frontend/default/blank/images/catalog/product -->
+       </dir> <!-- //frontend/default/blank/images/catalog -->
+       <dir name="cookies">
+        <file md5sum="425e1b2ddc38c0bba431fb54357c66a4" name="firefox.png" role="mageskin" />
+        <file md5sum="5c27700e245762bc89ed8c3ee7183f21" name="ie6-1.gif" role="mageskin" />
+        <file md5sum="d8c55e15e1f711e5c259300a9c19551b" name="ie6-2.gif" role="mageskin" />
+        <file md5sum="d61edcc8a514a3c81ea116b7d38ddcb6" name="ie7-1.gif" role="mageskin" />
+        <file md5sum="0526a654e94c54866cad977c0a47d3e5" name="ie7-2.gif" role="mageskin" />
+        <file md5sum="4fb142def3f6cfd8d8d23e1315528a1e" name="ie7-3.gif" role="mageskin" />
+        <file md5sum="575c276231c6a91e28935ec98215e146" name="ie7-4.gif" role="mageskin" />
+        <file md5sum="3ae5fcc11fe89da91674d183872337c1" name="ie7-5.gif" role="mageskin" />
+        <file md5sum="95a4981a41785a8cde273c9b2edbfbc7" name="ie7-6.gif" role="mageskin" />
+        <file md5sum="34070d92180d4ee0e37b1dd8bb731cd7" name="opera.png" role="mageskin" />
+       </dir> <!-- //frontend/default/blank/images/cookies -->
+       <dir name="media">
+        <file md5sum="834e53a03e2921a2fd3c135c0c7189df" name="404_callout1.jpg" role="mageskin" />
+        <file md5sum="016984b4a1579df34147f9407098db73" name="404_callout2.jpg" role="mageskin" />
+        <file md5sum="726f36dd75b5a709a1a14acab1660188" name="about_us_img.jpg" role="mageskin" />
+        <file md5sum="5f762006021e046f9bd536f37ea7c463" name="col_left_callout.jpg" role="mageskin" />
+        <file md5sum="dae22f37a542da272a35195ec286ec25" name="col_right_callout.jpg" role="mageskin" />
+       </dir> <!-- //frontend/default/blank/images/media -->
+       <file md5sum="2333c68e38163ed4656da82b9bcf362b" name="bg_collapse.gif" role="mageskin" />
+       <file md5sum="0a8777c815350ddf1e316a537ad0c335" name="bg_rating.gif" role="mageskin" />
+       <file md5sum="5074f4055f72e09046d5690d4730b367" name="bkg_button.gif" role="mageskin" />
+       <file md5sum="843d75249ce05b5d87ca5419f37b1c3b" name="btn_google_checkout.gif" role="mageskin" />
+       <file md5sum="6edd61270b7b5632eafad10557129114" name="btn_paypal_checkout.gif" role="mageskin" />
+       <file md5sum="bcb22f558a0eb32243a2a36645189e9f" name="btn_trash.gif" role="mageskin" />
+       <file md5sum="c83f3cbbb2aedfc580dff78d5cfb63ed" name="btn_window_close.gif" role="mageskin" />
+       <file md5sum="ed0f392004a405466291071a760b285d" name="cvv.gif" role="mageskin" />
+       <file md5sum="e4f28607f075a105e53fa3113d84bd26" name="error_msg_icon.gif" role="mageskin" />
+       <file md5sum="0ba89b9fbe7e88d4c6896ed0a1f495aa" name="fam_book_open.png" role="mageskin" />
+       <file md5sum="6cf70e7c52a3f3d7b833ccadb041a555" name="icon_big_rss.png" role="mageskin" />
+       <file md5sum="8537f6f88fcff4aac793247143d14e42" name="icon_feed.png" role="mageskin" />
+       <file md5sum="e5bbc388d818c142868b4a1df0b48793" name="icon_rss.gif" role="mageskin" />
+       <file md5sum="ebd56dc80b8346e10e93628bc0e6c372" name="i_notice.gif" role="mageskin" />
+       <file md5sum="6182e723aa2a253dc6cf334a3dfaaa84" name="list_remove_btn.gif" role="mageskin" />
+       <file md5sum="6c1c8318d7dd57cc674f2f3cddf04344" name="logo.gif" role="mageskin" />
+       <file md5sum="6b5211b7de79a89b162de049b224e56a" name="logo_email.gif" role="mageskin" />
+       <file md5sum="6b5211b7de79a89b162de049b224e56a" name="logo_print.gif" role="mageskin" />
+       <file md5sum="238fbdd7959f517db11c6f57ee4daaf4" name="magnifier_handle.gif" role="mageskin" />
+       <file md5sum="e774ee481a2820789c1a77112377c4e0" name="note_msg_icon.gif" role="mageskin" />
+       <file md5sum="e805ea7eca1f34c75ba0f93780d32d38" name="opc-ajax-loader.gif" role="mageskin" />
+       <file md5sum="75973b020105dccbaf34e49d7852552d" name="pager_arrow_left.gif" role="mageskin" />
+       <file md5sum="ed4d6640624c2b6edeab4c212314bd6d" name="pager_arrow_right.gif" role="mageskin" />
+       <file md5sum="87bc1b46d87de4f6252c7216216627c3" name="slider_bg.gif" role="mageskin" />
+       <file md5sum="ef0fc67f77f30827ee67f4e744b60781" name="slider_btn_zoom_in.gif" role="mageskin" />
+       <file md5sum="68b3d1c28dc5aec4f6b64d70a6996b6f" name="slider_btn_zoom_out.gif" role="mageskin" />
+       <file md5sum="40aa554212d6a1f60593c27d78d85fa3" name="sort_asc_arrow.gif" role="mageskin" />
+       <file md5sum="92fd194bfae4ce5ae3354e1e47d7ac7d" name="sort_desc_arrow.gif" role="mageskin" />
+       <file md5sum="df3e567d6f16d040326c7a0ea29a4f41" name="spacer.gif" role="mageskin" />
+       <file md5sum="834dfafd5f8b44c4b24a4c00add56fcf" name="success_msg_icon.gif" role="mageskin" />
+       <file md5sum="b85432906de8985a8b14eeb2dc652d3c" name="validation_advice_bg.gif" role="mageskin" />
+      </dir> <!-- //frontend/default/blank/images -->
+      <dir name="js">
+       <file md5sum="7fb06ec966f79c0488198975a69c6c0b" name="bundle.js" role="mageskin" />
+       <file md5sum="98f056ae92e10813f0d550daae6dd944" name="giftmessage.js" role="mageskin" />
+       <file md5sum="62d88d8c8c8809e00a7dc9f7af8f6ab9" name="opcheckout.js" role="mageskin" />
+       <file md5sum="4793d611370033c7daec147f135672b5" name="paypal.js" role="mageskin" />
+      </dir> <!-- //frontend/default/blank/js -->
+      <dir name="layout">
+       <file md5sum="5ddd216e1bcf2a3b9fdd6d63513ef21d" name="amazonpayments.xml" role="magedesign" />
+       <file md5sum="49c76474642f792bfc30c57f802a29db" name="bundle.xml" role="magedesign" />
+       <file md5sum="9d0f30acada0b4f1006214ae48336190" name="catalog.xml" role="magedesign" />
+       <file md5sum="6adf38a816895d306279c745ff5b8f40" name="catalogsearch.xml" role="magedesign" />
+       <file md5sum="ee2b9f38a9dcc0d971a9204bce49cc36" name="checkout.xml" role="magedesign" />
+       <file md5sum="8f0ea0ca91fa9dcc661ef44780f39fe1" name="cms.xml" role="magedesign" />
+       <file md5sum="e3e3eb3dcf2c276fa11d66722a0a1c62" name="contacts.xml" role="magedesign" />
+       <file md5sum="99c290a45fc882985b55279180d6a491" name="core.xml" role="magedesign" />
+       <file md5sum="a180537185e2e90d25f3e7efa7298b35" name="customer.xml" role="magedesign" />
+       <file md5sum="eb1bb63ef64fc8283a69f13fd3f90005" name="directory.xml" role="magedesign" />
+       <file md5sum="a4bb31c7d838e10893fe2a54a7636592" name="downloadable.xml" role="magedesign" />
+       <file md5sum="d91f058897e4ae05938b44960a87a7c0" name="giftmessage.xml" role="magedesign" />
+       <file md5sum="72fd608e307339080bc2b0e28762644d" name="googleanalytics.xml" role="magedesign" />
+       <file md5sum="c24d4770dec193a19a72834beb1951df" name="googlecheckout.xml" role="magedesign" />
+       <file md5sum="c8b25d432c8d2d1892834af7a3f35667" name="googleoptimizer.xml" role="magedesign" />
+       <file md5sum="06e2fa151b7034cd74268684d2050309" name="newsletter.xml" role="magedesign" />
+       <file md5sum="683b0bce8b7fd36f169aeb0b38e35bc9" name="page.xml" role="magedesign" />
+       <file md5sum="53eed662b8f4486b6a0064ba480b92e4" name="paypal.xml" role="magedesign" />
+       <file md5sum="e1f0523007cc3d4b523b6be24fa4e950" name="paypaluk.xml" role="magedesign" />
+       <file md5sum="3cd2707dc21722104fc344c3d342a4b9" name="poll.xml" role="magedesign" />
+       <file md5sum="8760bb53020762f38f2b854840017a9b" name="productalert.xml" role="magedesign" />
+       <file md5sum="5a5c702eb1447187f08191d1d9a5e03d" name="reports.xml" role="magedesign" />
+       <file md5sum="45b1dd918723370021ca91570f1d80eb" name="review.xml" role="magedesign" />
+       <file md5sum="d845be90fa12f2ba4ecf1b1a51dac395" name="rss.xml" role="magedesign" />
+       <file md5sum="b325c89f0069ecc6845eeb4bef0f41a1" name="sales.xml" role="magedesign" />
+       <file md5sum="515511b04f660095caed35c617bbab28" name="sendfriend.xml" role="magedesign" />
+       <file md5sum="89377704115050fe38a219c4abcf7ec6" name="shipping.xml" role="magedesign" />
+       <file md5sum="3b13589cc8a8231ce8a73ff3b6eb2c31" name="tag.xml" role="magedesign" />
+       <file md5sum="b4cda0f01fc23f3466c7692cc8fb9801" name="wishlist.xml" role="magedesign" />
+      </dir> <!-- //frontend/default/blank/layout -->
+      <dir name="locale">
+       <dir name="en_US">
+        <file md5sum="793e1ff86039f24caff6fad87a094fa1" name="translate.csv" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/locale/en_US -->
+      </dir> <!-- //frontend/default/blank/locale -->
+      <dir name="template">
+       <dir name="amazonpayments">
+        <dir name="asp">
+         <file md5sum="ca634126f7562111754e79177d68320e" name="form.phtml" role="magedesign" />
+         <file md5sum="5cfc9ac9d6f5c8c0d4eddfb20c0131b8" name="redirect.phtml" role="magedesign" />
+         <file md5sum="8c809a0c1c3125dfb62553f9905932d3" name="shortcut.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/amazonpayments/asp -->
+        <dir name="cba">
+         <file md5sum="bc6b970d132d6cd076e16f19ded71a7b" name="form.phtml" role="magedesign" />
+         <file md5sum="a9fb563a11cbe2ba134d86c58be4ad92" name="success.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/amazonpayments/cba -->
+        <file md5sum="e74f10295d796cab48e18b4283f3225f" name="form.phtml" role="magedesign" />
+        <file md5sum="3f9c29edac03663d4c9c89d33795b3e8" name="link.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/amazonpayments -->
+       <dir name="bundle">
+        <dir name="catalog">
+         <dir name="product">
+          <dir name="list">
+           <file md5sum="f0d5c55a57290a885664ea86e133b679" name="partof.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/bundle/catalog/product/list -->
+          <dir name="view">
+           <dir name="type">
+            <dir name="bundle">
+             <dir name="option">
+              <file md5sum="c4d2679d1daa39b510b50333e207c5f2" name="checkbox.phtml" role="magedesign" />
+              <file md5sum="7faa0e1b19d975d3638711aac4deb6d7" name="multi.phtml" role="magedesign" />
+              <file md5sum="0fe4a1916cd43b89f5e0681b2a095af9" name="radio.phtml" role="magedesign" />
+              <file md5sum="cc85f0bccd13e65e65db247913e74382" name="select.phtml" role="magedesign" />
+             </dir> <!-- //frontend/default/blank/template/bundle/catalog/product/view/type/bundle/option -->
+             <file md5sum="be546769aaa064f1340eff43e38066d3" name="options.phtml" role="magedesign" />
+            </dir> <!-- //frontend/default/blank/template/bundle/catalog/product/view/type/bundle -->
+            <file md5sum="d0e59e1797172c8eb0f257059c43f50b" name="bundle.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/bundle/catalog/product/view/type -->
+           <file md5sum="5d61ae7dde0a2334c1e67c42412e03a9" name="price.phtml" role="magedesign" />
+           <file md5sum="87c95796e53d19a9756c8e33df7eacfb" name="tierprices.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/bundle/catalog/product/view -->
+          <file md5sum="e8a4ed53bcf630bf1fbc5dfdb8c4cac1" name="price.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/bundle/catalog/product -->
+        </dir> <!-- //frontend/default/blank/template/bundle/catalog -->
+        <dir name="email">
+         <dir name="order">
+          <dir name="items">
+           <dir name="creditmemo">
+            <file md5sum="4144bdfa26bc8c6bfef2b415c047b97d" name="default.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/bundle/email/order/items/creditmemo -->
+           <dir name="invoice">
+            <file md5sum="ef20fe460ac338cf1716f36ca3b3281b" name="default.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/bundle/email/order/items/invoice -->
+           <dir name="order">
+            <file md5sum="f0927ef4c5ad576690523804f086ba39" name="default.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/bundle/email/order/items/order -->
+           <dir name="shipment">
+            <file md5sum="5d8cf3065959e86c2be887716bce3b6e" name="default.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/bundle/email/order/items/shipment -->
+          </dir> <!-- //frontend/default/blank/template/bundle/email/order/items -->
+         </dir> <!-- //frontend/default/blank/template/bundle/email/order -->
+        </dir> <!-- //frontend/default/blank/template/bundle/email -->
+        <dir name="sales">
+         <dir name="order">
+          <dir name="creditmemo">
+           <dir name="items">
+            <file md5sum="dab7d3cf51592ccab406a1a324abf448" name="renderer.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/bundle/sales/order/creditmemo/items -->
+          </dir> <!-- //frontend/default/blank/template/bundle/sales/order/creditmemo -->
+          <dir name="invoice">
+           <dir name="items">
+            <file md5sum="ef67fcb9b73ace8703d11d7faf386473" name="renderer.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/bundle/sales/order/invoice/items -->
+          </dir> <!-- //frontend/default/blank/template/bundle/sales/order/invoice -->
+          <dir name="items">
+           <file md5sum="4547b3d1e7ee743b2c6997a6cb1ebbe8" name="renderer.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/bundle/sales/order/items -->
+          <dir name="shipment">
+           <dir name="items">
+            <file md5sum="28faebf750f91fd6d5203b89f1a44071" name="renderer.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/bundle/sales/order/shipment/items -->
+          </dir> <!-- //frontend/default/blank/template/bundle/sales/order/shipment -->
+         </dir> <!-- //frontend/default/blank/template/bundle/sales/order -->
+        </dir> <!-- //frontend/default/blank/template/bundle/sales -->
+       </dir> <!-- //frontend/default/blank/template/bundle -->
+       <dir name="callouts">
+        <file md5sum="da32aafba925f37aeab347e4f93b1403" name="left_col.phtml" role="magedesign" />
+        <file md5sum="14e517ae3aeb65a1a5861dbb6aa81c1b" name="right_col.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/callouts -->
+       <dir name="catalog">
+        <dir name="category">
+         <file md5sum="aadf8b6c6e7657d5987dc4fc8898f81a" name="page.phtml" role="magedesign" />
+         <file md5sum="68897ae0f611b891d1dd20dfb10a1630" name="view.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/catalog/category -->
+        <dir name="layer">
+         <file md5sum="4838d2703a9980eda573d3b124290027" name="filter.phtml" role="magedesign" />
+         <file md5sum="493c701dbb66786af9872a6137f5f10f" name="state.phtml" role="magedesign" />
+         <file md5sum="f42d2e546bedbf1d84b1bb8c8ccc1282" name="view.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/catalog/layer -->
+        <dir name="navigation">
+         <file md5sum="2382758c9afb46e75bfed9d76b2bc7a5" name="left.phtml" role="magedesign" />
+         <file md5sum="6a856216d0b08d3bed2b0f360597ace2" name="top.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/catalog/navigation -->
+        <dir name="product">
+         <dir name="compare">
+          <file md5sum="9126cff7ffcb3d15732c2af38f108388" name="list.phtml" role="magedesign" />
+          <file md5sum="ed96556d5a310c81c3a77b96ac1d8f16" name="sidebar.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/catalog/product/compare -->
+         <dir name="list">
+          <file md5sum="a9983d41a2b877735795313c3a3db3a4" name="related.phtml" role="magedesign" />
+          <file md5sum="c08d6d828a77c65ffc1b1dce63268aee" name="toolbar.phtml" role="magedesign" />
+          <file md5sum="9ac23c3998f86d91341b81d88dd3aa5c" name="upsell.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/catalog/product/list -->
+         <dir name="view">
+          <dir name="options">
+           <dir name="type">
+            <file md5sum="31c587d2dba7ad995b3c03cf00f37246" name="date.phtml" role="magedesign" />
+            <file md5sum="e164beb01b3077fa1bf9a9bbb341ad56" name="default.phtml" role="magedesign" />
+            <file md5sum="524d4b61debb192718a961008d9db83f" name="file.phtml" role="magedesign" />
+            <file md5sum="15d350c5944b75b93236c59f1ab70e86" name="select.phtml" role="magedesign" />
+            <file md5sum="5594a2889cd9cb7c7e784446205411ff" name="text.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/catalog/product/view/options/type -->
+           <dir name="wrapper">
+            <file md5sum="9be3658960ada4f4c774736829076538" name="bottom.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/catalog/product/view/options/wrapper -->
+           <file md5sum="f002cb2d5261b96752a484c95e5f8028" name="js.phtml" role="magedesign" />
+           <file md5sum="c10ed9f230ecc827a1c2f99c9a4b4d46" name="wrapper.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/catalog/product/view/options -->
+          <dir name="type">
+           <dir name="options">
+            <file md5sum="8eb194d7cef5bf44842c3380cbcd68ad" name="configurable.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/catalog/product/view/type/options -->
+           <file md5sum="9e3f4a6fb16ab3de753dae23796cde11" name="configurable.phtml" role="magedesign" />
+           <file md5sum="6b29550dd2f515dd37f84acf1f05f52b" name="grouped.phtml" role="magedesign" />
+           <file md5sum="559ea95ea29fc6024e8abfae88fd90ff" name="simple.phtml" role="magedesign" />
+           <file md5sum="559ea95ea29fc6024e8abfae88fd90ff" name="virtual.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/catalog/product/view/type -->
+          <file md5sum="6fc511a523e1b3065765365aa194520a" name="additional.phtml" role="magedesign" />
+          <file md5sum="13630226d178b97229191ca9535c7457" name="addto.phtml" role="magedesign" />
+          <file md5sum="81b0ddf718e302e30e97180d9a3f138c" name="addtocart.phtml" role="magedesign" />
+          <file md5sum="e346dc81d9222db8f6c4e6415d21e47e" name="attributes.phtml" role="magedesign" />
+          <file md5sum="7e18c1608cb82f8a8c107e5568438e91" name="description.phtml" role="magedesign" />
+          <file md5sum="a7d10d0a7e3232d29fce64276c1d454b" name="media.phtml" role="magedesign" />
+          <file md5sum="edd07017a42d622f0695a6ee38a61d75" name="options.phtml" role="magedesign" />
+          <file md5sum="6ad72e4f21ddeba52027a7faade0e7cd" name="price.phtml" role="magedesign" />
+          <file md5sum="8b72619d07da2aa9c7c11c1017068731" name="price_clone.phtml" role="magedesign" />
+          <file md5sum="3ac2d5f5338c97a67f2e7a81e741295e" name="tierprices.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/catalog/product/view -->
+         <file md5sum="dd58f98d6cf094f2cd024f9b4458af1f" name="gallery.phtml" role="magedesign" />
+         <file md5sum="f2437f02854b99f16ed8228da37a1783" name="list.phtml" role="magedesign" />
+         <file md5sum="7e36ca0886186fa1a45484ccfe59e588" name="new.phtml" role="magedesign" />
+         <file md5sum="7986bd0043a7064af9ce3f2ff03f6de5" name="price.phtml" role="magedesign" />
+         <file md5sum="0c8df97f574901cb27c2775d0660a97f" name="view.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/catalog/product -->
+        <dir name="seo">
+         <dir name="sitemap">
+          <file md5sum="a952fcb12c6c8cd2f51313fa63dba74c" name="container.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/catalog/seo/sitemap -->
+         <file md5sum="87b64dbb6d15edf894a1170ed954596d" name="sitemap.phtml" role="magedesign" />
+         <file md5sum="16497389a93f352b32fa2a065bb335a5" name="tree.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/catalog/seo -->
+       </dir> <!-- //frontend/default/blank/template/catalog -->
+       <dir name="catalogsearch">
+        <dir name="advanced">
+         <file md5sum="8cbe9c6fb40589ceec3e4c0c2857c9f4" name="form.phtml" role="magedesign" />
+         <file md5sum="7fbb20b3ff57cb9f7d4eb2479ea3c72b" name="result.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/catalogsearch/advanced -->
+        <file md5sum="71803ed517beaa1176e42ad9181651bb" name="form.mini.phtml" role="magedesign" />
+        <file md5sum="07470604fb50e5a3b25432f49a206006" name="result.phtml" role="magedesign" />
+        <file md5sum="66ab2560641b0872c3211f3d8f42e33a" name="term.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/catalogsearch -->
+       <dir name="checkout">
+        <dir name="cart">
+         <dir name="item">
+          <file md5sum="ff475824c68bb546dc4cf6eed770282c" name="default.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/checkout/cart/item -->
+         <dir name="render">
+          <file md5sum="8e7ab38d3369344c947c0793846d7d38" name="default.phtml" role="magedesign" />
+          <file md5sum="3bfcaa834c96f5ad09277587ec82636f" name="simple.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/checkout/cart/render -->
+         <dir name="sidebar">
+          <file md5sum="2ee8ff5d5918f851dad4c7b789b40771" name="default.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/checkout/cart/sidebar -->
+         <file md5sum="0f47b671f2f28ba2a9b317ca112a7475" name="coupon.phtml" role="magedesign" />
+         <file md5sum="8f8401b8180283fb6fa3607b4b0e8810" name="crosssell.phtml" role="magedesign" />
+         <file md5sum="03f31b1e9168d12b3ba9dc2f8bd1f760" name="noItems.phtml" role="magedesign" />
+         <file md5sum="d59b2199fd22b43dfc297e1dd4ee9ecb" name="shipping.phtml" role="magedesign" />
+         <file md5sum="7841d505317e5f6d5e0cde4a2a9f2c6b" name="sidebar.phtml" role="magedesign" />
+         <file md5sum="01b900fbbd994771ea04ed56c86339ec" name="totals.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/checkout/cart -->
+        <dir name="multishipping">
+         <dir name="address">
+          <file md5sum="cd96699b17456a6d84fb6eeffc88ee85" name="select.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/checkout/multishipping/address -->
+         <dir name="billing">
+          <file md5sum="70f639ad42813a3da7cd32456d3a2845" name="items.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/checkout/multishipping/billing -->
+         <dir name="item">
+          <file md5sum="7a2c9ea8848111faa6ee3387fcb63537" name="default.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/checkout/multishipping/item -->
+         <file md5sum="a46acadb98fb75d4c01078f552c79d78" name="addresses.phtml" role="magedesign" />
+         <file md5sum="0cc2c61890723b3c810f4165b0b6ea8e" name="agreements.phtml" role="magedesign" />
+         <file md5sum="377d2434635722800b7e48a497ad4a4a" name="billing.phtml" role="magedesign" />
+         <file md5sum="c4225a9a1bbd9f177199119209469b11" name="link.phtml" role="magedesign" />
+         <file md5sum="efed56ad7b22899afb3f8bbaabf4cbe8" name="overview.phtml" role="magedesign" />
+         <file md5sum="396208d67285f2fdc1e052cefa20379c" name="shipping.phtml" role="magedesign" />
+         <file md5sum="a82cbe78e6abfa201db2c2af4063aa94" name="state.phtml" role="magedesign" />
+         <file md5sum="e90c439d6de83f4bfa8e7004ae2ddad9" name="success.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/checkout/multishipping -->
+        <dir name="onepage">
+         <dir name="payment">
+          <file md5sum="513839214b355ac6f1ec879230459d05" name="methods.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/checkout/onepage/payment -->
+         <dir name="review">
+          <file md5sum="968c6900e38df13179fb7a0c77747bc8" name="info.phtml" role="magedesign" />
+          <file md5sum="78ab623d61e5afa84f42585d764f3c24" name="item.phtml" role="magedesign" />
+          <file md5sum="63fb070ddef121951ed09f78641b17a4" name="totals.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/checkout/onepage/review -->
+         <dir name="shipping_method">
+          <file md5sum="1f8a9204df1f5854c76ab9e729f1e191" name="additional.phtml" role="magedesign" />
+          <file md5sum="b3794aa3ea6c16633292390b5e5100f0" name="available.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/checkout/onepage/shipping_method -->
+         <file md5sum="0527bfb427c60aa956791bcfc3aa2baa" name="agreements.phtml" role="magedesign" />
+         <file md5sum="3c2e4419e75e8e46c323087cc35384cb" name="billing.phtml" role="magedesign" />
+         <file md5sum="5c6c4a68a56edbe050f084e441231f69" name="failure.phtml" role="magedesign" />
+         <file md5sum="3ee2e026b7ca9f052db065b35ef6fcd7" name="link.phtml" role="magedesign" />
+         <file md5sum="ee816432e6da99f90730e54937dfdc0d" name="login.phtml" role="magedesign" />
+         <file md5sum="a4bbb98233c87128a91573e93f29fcf9" name="payment.phtml" role="magedesign" />
+         <file md5sum="44f9aed669a32f4edcff52760d283a6d" name="progress.phtml" role="magedesign" />
+         <file md5sum="495f48bcc50ab3abd0efac683f4be4e1" name="review.phtml" role="magedesign" />
+         <file md5sum="0bdb15552a09f77271a72cce410be970" name="shipping.phtml" role="magedesign" />
+         <file md5sum="5f3d0140324ad1dca3901d14d0531277" name="shipping_method.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/checkout/onepage -->
+        <dir name="total">
+         <file md5sum="4a680113802974e087a73b572129a11b" name="default.phtml" role="magedesign" />
+         <file md5sum="445fd8fd4d463610f33014596a0871ba" name="tax.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/checkout/total -->
+        <file md5sum="050ac3ffb0813e036bf561417575e4f9" name="cart.phtml" role="magedesign" />
+        <file md5sum="affc0973c249464f98d6592ce4a52538" name="links.phtml" role="magedesign" />
+        <file md5sum="2ee5d54e33dfacb4f1cdd58ea12e12c1" name="onepage.phtml" role="magedesign" />
+        <file md5sum="dac0fd8f84f2607379eff82da2c8fb5c" name="success.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/checkout -->
+       <dir name="cms">
+        <dir name="default">
+         <file md5sum="cae87e8ece9b2cf11d56f58f78b61354" name="home.phtml" role="magedesign" />
+         <file md5sum="a82130a7e80d0f544fe904b1b8795a1b" name="no-route.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/cms/default -->
+        <file md5sum="5bc7aa683ad79c7a422478c6cc67a963" name="content.phtml" role="magedesign" />
+        <file md5sum="73c1b59cdc8e7ec40d294f3ac755005c" name="meta.phtml" role="magedesign" />
+        <file md5sum="5e34be57251e28f85eb9d51bd38100b9" name="wrapper.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/cms -->
+       <dir name="contacts">
+        <file md5sum="f724b66ea939e332d51099f65a07d198" name="form.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/contacts -->
+       <dir name="core">
+        <file md5sum="6f59eb9cc856f4f5b3ee30756300e2a6" name="formkey.phtml" role="magedesign" />
+        <file md5sum="31f0e7850e552a1e67d8d99a5c0fbe1b" name="messages.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/core -->
+       <dir name="customer">
+        <dir name="account">
+         <dir name="dashboard">
+          <file md5sum="2a9ec75a331b2411809154b99bb7020e" name="address.phtml" role="magedesign" />
+          <file md5sum="a3870656761e58365a6f19e105d340ec" name="hello.phtml" role="magedesign" />
+          <file md5sum="737b388782a4ca8b58d9295fbed7f16b" name="info.phtml" role="magedesign" />
+          <file md5sum="22d34e6401ff61b26e48de0a7052bbd1" name="newsletter.phtml" role="magedesign" />
+          <file md5sum="affc0973c249464f98d6592ce4a52538" name="sidebar.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/customer/account/dashboard -->
+         <dir name="link">
+          <file md5sum="c0a1831d7f2926c3499fb9bbc2d519d5" name="back.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/customer/account/link -->
+         <file md5sum="116bef22699a11e2433fbc44ccdb87f7" name="dashboard.phtml" role="magedesign" />
+         <file md5sum="d222e216465d2ede7f87f3dadb2dee37" name="navigation.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/customer/account -->
+        <dir name="address">
+         <file md5sum="b31cf726c0ceecdbcb414531fb4bac03" name="book.phtml" role="magedesign" />
+         <file md5sum="a3b2f6c3ea21694d4858bafbfe22beba" name="edit.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/customer/address -->
+        <dir name="form">
+         <file md5sum="5df7fb02a83bb8e3803539e039b62468" name="address.phtml" role="magedesign" />
+         <file md5sum="240dab89dc88f285cded4a64f38edb4a" name="changepassword.phtml" role="magedesign" />
+         <file md5sum="d0c81d2896cc570de2d4cd42611e73a8" name="confirmation.phtml" role="magedesign" />
+         <file md5sum="5fc8c62dfeb4df6275ab7aee717ae20d" name="edit.phtml" role="magedesign" />
+         <file md5sum="a19e766fa6c2dc06b835da1eb00dfafc" name="forgotpassword.phtml" role="magedesign" />
+         <file md5sum="41acb9145840798b103693bcf7f83553" name="login.phtml" role="magedesign" />
+         <file md5sum="24d09a1d4ec2023f3767e91211545243" name="mini.login.phtml" role="magedesign" />
+         <file md5sum="0d85a4ab369289b7716c6f2662c17a8b" name="newsletter.phtml" role="magedesign" />
+         <file md5sum="676c2ac5bdb3db4b83cef8fab525641d" name="register.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/customer/form -->
+        <dir name="order">
+         <file md5sum="1a01a49bb7b8c2c8e2f12f063056c826" name="view.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/customer/order -->
+        <dir name="widget">
+         <file md5sum="a19c80a0826d867a1676df68dfd759eb" name="dob.phtml" role="magedesign" />
+         <file md5sum="3d6c119e5d0f44baa0e204b7dfcb0fe7" name="name.phtml" role="magedesign" />
+         <file md5sum="90f20cd2d8090ce8a37736caec07e503" name="taxvat.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/customer/widget -->
+        <file md5sum="6b75ebcc1ec2586db731045d4161890a" name="address.phtml" role="magedesign" />
+        <file md5sum="da9f8fa46d12a3dc7277dc6cf1fa4a13" name="balance.phtml" role="magedesign" />
+        <file md5sum="5dcd8e145f634fbd7d27b515d8b7582d" name="logout.phtml" role="magedesign" />
+        <file md5sum="fef7ae48cec30b6e27af3238bdb4a3a4" name="orders.phtml" role="magedesign" />
+        <file md5sum="57c44f1197bed317ab0f70e81ea6bd95" name="wishlist.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/customer -->
+       <dir name="directory">
+        <dir name="currency">
+         <file md5sum="4670eb2ba16f1ddaa350d2edb74ce0eb" name="switch.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/directory/currency -->
+        <file md5sum="f7a5c9e12e46c6d1c084cc2260a2e246" name="currency.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/directory -->
+       <dir name="downloadable">
+        <dir name="catalog">
+         <dir name="product">
+          <file md5sum="8c266e046d3395015bbac0ec52a49c7e" name="links.phtml" role="magedesign" />
+          <file md5sum="44c0a95537374a28b2ef7dc61af83081" name="samples.phtml" role="magedesign" />
+          <file md5sum="9be57b1ac5f527f80cbc4a2ad1255ec9" name="type.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/downloadable/catalog/product -->
+        </dir> <!-- //frontend/default/blank/template/downloadable/catalog -->
+        <dir name="checkout">
+         <dir name="cart">
+          <dir name="item">
+           <file md5sum="08f3100e09d17d1614b5d4f7e66388f6" name="default.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/downloadable/checkout/cart/item -->
+         </dir> <!-- //frontend/default/blank/template/downloadable/checkout/cart -->
+         <dir name="multishipping">
+          <dir name="item">
+           <file md5sum="45556a88e38b5cc2bd3a6e3ecc9b5b6d" name="downloadable.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/downloadable/checkout/multishipping/item -->
+         </dir> <!-- //frontend/default/blank/template/downloadable/checkout/multishipping -->
+         <dir name="onepage">
+          <dir name="review">
+           <file md5sum="13f105748e9e41df878609bc1fda303f" name="item.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/downloadable/checkout/onepage/review -->
+         </dir> <!-- //frontend/default/blank/template/downloadable/checkout/onepage -->
+         <file md5sum="3a03beb83b20a623c0a8e364c0015cdc" name="success.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/downloadable/checkout -->
+        <dir name="customer">
+         <dir name="products">
+          <file md5sum="ca10f36d49bd9535b5c919a8da27e14e" name="list.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/downloadable/customer/products -->
+        </dir> <!-- //frontend/default/blank/template/downloadable/customer -->
+        <dir name="email">
+         <dir name="order">
+          <dir name="items">
+           <dir name="creditmemo">
+            <file md5sum="d0a310bd1117fc84443a53e9d9687400" name="downloadable.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/downloadable/email/order/items/creditmemo -->
+           <dir name="invoice">
+            <file md5sum="0282e9403b6551c80bc424251cbaca7a" name="downloadable.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/downloadable/email/order/items/invoice -->
+           <dir name="order">
+            <file md5sum="16a6d6963fb5deb32a28378098239d21" name="downloadable.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/downloadable/email/order/items/order -->
+          </dir> <!-- //frontend/default/blank/template/downloadable/email/order/items -->
+         </dir> <!-- //frontend/default/blank/template/downloadable/email/order -->
+        </dir> <!-- //frontend/default/blank/template/downloadable/email -->
+        <dir name="sales">
+         <dir name="order">
+          <dir name="creditmemo">
+           <dir name="items">
+            <dir name="renderer">
+             <file md5sum="daf32c3dc7148ffd2f0b631f21fa7132" name="downloadable.phtml" role="magedesign" />
+            </dir> <!-- //frontend/default/blank/template/downloadable/sales/order/creditmemo/items/renderer -->
+           </dir> <!-- //frontend/default/blank/template/downloadable/sales/order/creditmemo/items -->
+          </dir> <!-- //frontend/default/blank/template/downloadable/sales/order/creditmemo -->
+          <dir name="invoice">
+           <dir name="items">
+            <dir name="renderer">
+             <file md5sum="98a6741411bdc31b1e034c3990c3bef6" name="downloadable.phtml" role="magedesign" />
+            </dir> <!-- //frontend/default/blank/template/downloadable/sales/order/invoice/items/renderer -->
+           </dir> <!-- //frontend/default/blank/template/downloadable/sales/order/invoice/items -->
+          </dir> <!-- //frontend/default/blank/template/downloadable/sales/order/invoice -->
+          <dir name="items">
+           <dir name="renderer">
+            <file md5sum="4749795001979bcd599657a80227ce27" name="downloadable.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/downloadable/sales/order/items/renderer -->
+          </dir> <!-- //frontend/default/blank/template/downloadable/sales/order/items -->
+         </dir> <!-- //frontend/default/blank/template/downloadable/sales/order -->
+        </dir> <!-- //frontend/default/blank/template/downloadable/sales -->
+       </dir> <!-- //frontend/default/blank/template/downloadable -->
+       <dir name="email">
+        <dir name="order">
+         <dir name="creditmemo">
+          <file md5sum="cfe5211ef1d5c0785ca92065f4b88186" name="items.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/email/order/creditmemo -->
+         <dir name="invoice">
+          <file md5sum="4e245ebd1d0005e011c67c000849f5c0" name="items.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/email/order/invoice -->
+         <dir name="items">
+          <dir name="creditmemo">
+           <file md5sum="e99fe3121b7b80e36690715a09bd6550" name="default.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/email/order/items/creditmemo -->
+          <dir name="invoice">
+           <file md5sum="e99fe3121b7b80e36690715a09bd6550" name="default.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/email/order/items/invoice -->
+          <dir name="order">
+           <file md5sum="7f3b388e6b84046e1c771b632ebde612" name="default.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/email/order/items/order -->
+          <dir name="shipment">
+           <file md5sum="40dab7ab90f7514acfe3e1d4ab408e60" name="default.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/email/order/items/shipment -->
+         </dir> <!-- //frontend/default/blank/template/email/order/items -->
+         <dir name="shipment">
+          <file md5sum="e38d0caba217e50d86320f49ad86b8da" name="items.phtml" role="magedesign" />
+          <file md5sum="e9810f489eda94dd7584444ee033fb59" name="track.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/email/order/shipment -->
+         <file md5sum="362c381e40ecdda30cba5300e339e896" name="items.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/email/order -->
+        <dir name="productalert">
+         <file md5sum="30057e231615619c233809e4dcbe1103" name="price.phtml" role="magedesign" />
+         <file md5sum="6cf4f567d764a198b8fbe42773d738e9" name="stock.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/email/productalert -->
+       </dir> <!-- //frontend/default/blank/template/email -->
+       <dir name="giftmessage">
+        <file md5sum="2189441f6329cd1c7522bb3e467cd059" name="form.phtml" role="magedesign" />
+        <file md5sum="ae0f4b7d8bfab3aba1e933a2001d1247" name="helper.phtml" role="magedesign" />
+        <file md5sum="4e6c8579f7797fa40957898f5c4269a0" name="inline.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/giftmessage -->
+       <dir name="googlecheckout">
+        <file md5sum="47f80f80bc586a135d168e5cc12a372a" name="form.phtml" role="magedesign" />
+        <file md5sum="7fb9dbf1e022eca9c7ea7f039b5170ee" name="link.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/googlecheckout -->
+       <dir name="newsletter">
+        <file md5sum="33fa36832b5843292ee43a25db3db271" name="subscribe.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/newsletter -->
+       <dir name="page">
+        <dir name="html">
+         <file md5sum="bd091780b03696b24c50b985e8621511" name="breadcrumbs.phtml" role="magedesign" />
+         <file md5sum="0111b208dd26f763ceda3e159ddad3d7" name="footer.phtml" role="magedesign" />
+         <file md5sum="1fea2048b0f43e79e325455c29186cba" name="head.phtml" role="magedesign" />
+         <file md5sum="b107bf5c8d2a616cdf4d67aff074b849" name="header.phtml" role="magedesign" />
+         <file md5sum="5f219693d01e9c640496f904b0a1e99a" name="notices.phtml" role="magedesign" />
+         <file md5sum="37945676a2c4f93a1c9c7511e9e525f6" name="pager.phtml" role="magedesign" />
+         <file md5sum="36bffb90a36f2ca39d257890b4016878" name="top.links.phtml" role="magedesign" />
+         <file md5sum="a527f8b78162d1ccf89bf9c2b6d58e62" name="wrapper.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/page/html -->
+        <dir name="js">
+         <file md5sum="9d785c39631053eb2231b4fe1764d3cf" name="calendar.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/page/js -->
+        <dir name="switch">
+         <file md5sum="f7cee579500a0dde7ffa8f8ac6a069e8" name="flags.phtml" role="magedesign" />
+         <file md5sum="74bc530b7a284333c6dbfb63c233fa1b" name="languages.phtml" role="magedesign" />
+         <file md5sum="0f0f7e563d7df0ab16777b696989fe85" name="stores.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/page/switch -->
+        <dir name="template">
+         <file md5sum="48a40301b0a26dbdd0de0f91d5adcc4d" name="container.phtml" role="magedesign" />
+         <file md5sum="9d7e5482e99117e8df59efc6770231f0" name="links.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/page/template -->
+        <file md5sum="3ebdbfbeada10ee25e7156e38687548f" name="1column.phtml" role="magedesign" />
+        <file md5sum="5a449674192d6509af44d7a082978ef2" name="2columns-left.phtml" role="magedesign" />
+        <file md5sum="0d8a645fb775ea6ccd81746b9dad7541" name="2columns-right.phtml" role="magedesign" />
+        <file md5sum="521ac4c1c549fb03aada77125ce4a463" name="3columns.phtml" role="magedesign" />
+        <file md5sum="52dc936e8c2884d8cab1a212bbfd2872" name="one-column.phtml" role="magedesign" />
+        <file md5sum="a4e73e22b8ec51b3aea5a8303bb3b250" name="popup.phtml" role="magedesign" />
+        <file md5sum="53837eaccfcc0a83e54da945e07f125f" name="print.phtml" role="magedesign" />
+        <file md5sum="0711eff223361681d2d12b2061f42cb1" name="redirect.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/page -->
+       <dir name="payment">
+        <dir name="form">
+         <file md5sum="e2212577c2c9c28e00c66a1908d46fb3" name="cc.phtml" role="magedesign" />
+         <file md5sum="07ff3a0a20f00e31b5443800ebacb7f1" name="ccsave.phtml" role="magedesign" />
+         <file md5sum="395800ebbbd31f85c5c19f211f804c09" name="checkmo.phtml" role="magedesign" />
+         <file md5sum="63c6fb59568ad1f8a7170c231e947785" name="purchaseorder.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/payment/form -->
+        <dir name="info">
+         <file md5sum="3b58308f891f7456accfaef2cdbf4e3c" name="cc.phtml" role="magedesign" />
+         <file md5sum="f13dccb79ee937279722e34db2d75150" name="ccsave.phtml" role="magedesign" />
+         <file md5sum="68c1345716d154c63d6089c94d0e1c5d" name="checkmo.phtml" role="magedesign" />
+         <file md5sum="5b12a176647450847712b5ddb5b7c1cb" name="default.phtml" role="magedesign" />
+         <file md5sum="a258df940fb85b0dbd41221934cbee40" name="purchaseorder.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/payment/info -->
+       </dir> <!-- //frontend/default/blank/template/payment -->
+       <dir name="paypal">
+        <dir name="express">
+         <dir name="review">
+          <file md5sum="bf6edb45ed660c6efd96ad696bbb81b6" name="details.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/paypal/express/review -->
+         <file md5sum="dacfbd1a1d0a82b9d2e6bc2ecf88ab00" name="form.phtml" role="magedesign" />
+         <file md5sum="e5055353ca8855207dbd981208ee3e66" name="info.phtml" role="magedesign" />
+         <file md5sum="67d49d023b6e681a7f67fb8921f734aa" name="review.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/paypal/express -->
+        <dir name="standard">
+         <file md5sum="99832274cde55a2c9999d89d38dd8c88" name="form.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/paypal/standard -->
+        <file md5sum="a58135aa8c3451f479d0c5e1ce86d01b" name="link.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/paypal -->
+       <dir name="paypaluk">
+        <dir name="direct">
+         <file md5sum="df5728a0068b15ec6c56323b4f893b4e" name="form.phtml" role="magedesign" />
+         <file md5sum="91705c0d3cb8cb336aee5a24e57a93c9" name="info.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/paypaluk/direct -->
+        <dir name="express">
+         <dir name="review">
+          <file md5sum="c8ccfb9c1eb05d86a10dc449f678e78c" name="details.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/paypaluk/express/review -->
+         <file md5sum="3ab14fedc24e6200b21ce5376cc34037" name="form.phtml" role="magedesign" />
+         <file md5sum="e5055353ca8855207dbd981208ee3e66" name="info.phtml" role="magedesign" />
+         <file md5sum="750608c895d5b302f9db119ff1f7aae3" name="review.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/paypaluk/express -->
+        <file md5sum="10a1748caabeecddf45b0792e770453b" name="link.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/paypaluk -->
+       <dir name="poll">
+        <file md5sum="1779dac29251a5c782acf743bfddeeb1" name="active.phtml" role="magedesign" />
+        <file md5sum="72f240de2738a6245e1f2358bd372bfd" name="result.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/poll -->
+       <dir name="productalert">
+        <file md5sum="fbf4d4bd39aba47214e5517841300f9a" name="price.phtml" role="magedesign" />
+        <file md5sum="c71de1c94128176d10de171743505525" name="stock.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/productalert -->
+       <dir name="rating">
+        <file md5sum="f805bcd92a7fda64a099928a812541bc" name="detailed.phtml" role="magedesign" />
+        <file md5sum="5b8bb08fb214c543dfe26ff202891c7e" name="empty.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/rating -->
+       <dir name="reports">
+        <file md5sum="16924a2c7f101edb345ad76aa824ca97" name="home_product_compared.phtml" role="magedesign" />
+        <file md5sum="81e52257f6a37ddd8c4a191c235b2bd5" name="home_product_viewed.phtml" role="magedesign" />
+        <file md5sum="46f95495f89b745532386ca5f9cf392e" name="product_compared.phtml" role="magedesign" />
+        <file md5sum="935074d1fc7041908e453537a23fa893" name="product_viewed.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/reports -->
+       <dir name="review">
+        <dir name="customer">
+         <file md5sum="79477897ad1e0346e46bb7d88d52f66a" name="list.phtml" role="magedesign" />
+         <file md5sum="707d60cc547ded6cb25ea5b8ac272e93" name="recent.phtml" role="magedesign" />
+         <file md5sum="ac2a40f8298e2a63a880d155196b8190" name="view.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/review/customer -->
+        <dir name="helper">
+         <file md5sum="b2b0ba9cd00e13e32dd76efb02100d0f" name="summary.phtml" role="magedesign" />
+         <file md5sum="22dc079532ce1407c7c1f83f92e32aef" name="summary_short.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/review/helper -->
+        <dir name="product">
+         <dir name="view">
+          <file md5sum="f5c8e159786a1e2486c4dac8dfb66e1e" name="count.phtml" role="magedesign" />
+          <file md5sum="07059ba73bf0540c04d4e1a12ab5df20" name="list.phtml" role="magedesign" />
+          <file md5sum="ff7173288f722adad334cd3b1a9f588f" name="other.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/review/product/view -->
+        </dir> <!-- //frontend/default/blank/template/review/product -->
+        <file md5sum="300d77db884521c3404ea3c87a161cb5" name="form.phtml" role="magedesign" />
+        <file md5sum="4af924813e6a0170c72ff0dd0b385f73" name="view.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/review -->
+       <dir name="rss">
+        <dir name="order">
+         <file md5sum="b5d5a99587a8545bdb9c6a0d70a042d3" name="details.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/rss/order -->
+        <file md5sum="85fbf67f76eaa3d447d03194c435fde1" name="list.phtml" role="magedesign" />
+        <file md5sum="76502bd485ec3713e10802eba65d4e58" name="nofeed.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/rss -->
+       <dir name="sales">
+        <dir name="order">
+         <dir name="creditmemo">
+          <dir name="items">
+           <dir name="renderer">
+            <file md5sum="0b53fa40f76f8cb022f135cb1ca025f4" name="default.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/sales/order/creditmemo/items/renderer -->
+          </dir> <!-- //frontend/default/blank/template/sales/order/creditmemo/items -->
+          <file md5sum="52130b4aeb78e9fa6c3f72af274bb308" name="items.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/sales/order/creditmemo -->
+         <dir name="invoice">
+          <dir name="items">
+           <dir name="renderer">
+            <file md5sum="f80ef6ed0f6d5490cc956d97735e43f1" name="default.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/sales/order/invoice/items/renderer -->
+          </dir> <!-- //frontend/default/blank/template/sales/order/invoice/items -->
+          <file md5sum="ea358c0e49bf92e118f14f78926be231" name="items.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/sales/order/invoice -->
+         <dir name="items">
+          <dir name="renderer">
+           <file md5sum="6c79155ac57249604fd300d48b19c132" name="default.phtml" role="magedesign" />
+          </dir> <!-- //frontend/default/blank/template/sales/order/items/renderer -->
+         </dir> <!-- //frontend/default/blank/template/sales/order/items -->
+         <dir name="print">
+          <file md5sum="6b61ea13f19b8dd5f1eeee3675ff1372" name="creditmemo.phtml" role="magedesign" />
+          <file md5sum="45ed0ac3a21ed32b7199810be8993849" name="invoice.phtml" role="magedesign" />
+          <file md5sum="ba4b85f514a83de6f259444518560898" name="shipment.phtml" role="magedesign" />
+          <file md5sum="bf254c2d780f00e18b1c00f95b067db8" name="tax.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/sales/order/print -->
+         <dir name="shipment">
+          <dir name="items">
+           <dir name="renderer">
+            <file md5sum="a9f0de0871d9650d83acd5b057657770" name="default.phtml" role="magedesign" />
+           </dir> <!-- //frontend/default/blank/template/sales/order/shipment/items/renderer -->
+          </dir> <!-- //frontend/default/blank/template/sales/order/shipment/items -->
+          <file md5sum="afa536b18c2789aa85696b7c52b335c9" name="items.phtml" role="magedesign" />
+         </dir> <!-- //frontend/default/blank/template/sales/order/shipment -->
+         <file md5sum="8d13ffb5de2e98c02e22d6a55f498a29" name="creditmemo.phtml" role="magedesign" />
+         <file md5sum="e7cad4cdf7f1ff69473161ed11585d3c" name="details.phtml" role="magedesign" />
+         <file md5sum="ce9ae377a04fb084221bdb1d632c80a7" name="history.phtml" role="magedesign" />
+         <file md5sum="f640cecc102c71a5a6476df8ad808759" name="info.phtml" role="magedesign" />
+         <file md5sum="d26a29413f8574543b11a0775f2ac46d" name="invoice.phtml" role="magedesign" />
+         <file md5sum="6f14ea4daf34822ca7d70d51bf87c653" name="items.phtml" role="magedesign" />
+         <file md5sum="e025ef349695c93b75a6bac5a59eb1f1" name="print.phtml" role="magedesign" />
+         <file md5sum="2c7281fdd3860a3bfa2ea7f17c8122f7" name="recent.phtml" role="magedesign" />
+         <file md5sum="3c451556d2205e02489094a2dcfee65e" name="shipment.phtml" role="magedesign" />
+         <file md5sum="ec921ad542c485c3959482d58bd28809" name="tax.phtml" role="magedesign" />
+         <file md5sum="1c680d4542402f269b4c635804a04f77" name="trackinginfo.phtml" role="magedesign" />
+         <file md5sum="378f90425cb314f3c3391f7716c87998" name="view.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/sales/order -->
+        <dir name="reorder">
+         <file md5sum="b971b3e8ae3488ca425d8fd991a96c08" name="sidebar.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/sales/reorder -->
+       </dir> <!-- //frontend/default/blank/template/sales -->
+       <dir name="sendfriend">
+        <file md5sum="11d9e92a8fd76efcf1cc3980b13ea575" name="send.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/sendfriend -->
+       <dir name="shipping">
+        <dir name="tracking">
+         <file md5sum="affc0973c249464f98d6592ce4a52538" name="ajax.phtml" role="magedesign" />
+         <file md5sum="5ab32159c6c08b624bea15cee4a8236f" name="popup.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/shipping/tracking -->
+       </dir> <!-- //frontend/default/blank/template/shipping -->
+       <dir name="tag">
+        <dir name="customer">
+         <file md5sum="dd4ca47e537408f378df2ef7ad00ab5b" name="edit.phtml" role="magedesign" />
+         <file md5sum="edd2e285ce655539e067644013b5094f" name="recent.phtml" role="magedesign" />
+         <file md5sum="1d3551b3f3713dbc6d32ba205fdc2c51" name="tags.phtml" role="magedesign" />
+         <file md5sum="b71e4561f75bd99e676249ddedd74760" name="view.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/tag/customer -->
+        <dir name="product">
+         <file md5sum="e9b396590036a5a15ec23db9e10ddb38" name="result.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/tag/product -->
+        <file md5sum="dfb3592054b773c08a522091cf5de233" name="cloud.phtml" role="magedesign" />
+        <file md5sum="a8e61d8ff0aeb9bf90c8494b4feb3dea" name="list.phtml" role="magedesign" />
+        <file md5sum="b6efff2bc3bb2139a4057f8c1eb989f4" name="mytags.phtml" role="magedesign" />
+        <file md5sum="609e9970b27b96e28d4125e1b5679af9" name="popular.phtml" role="magedesign" />
+        <file md5sum="dea62fd62de4c403f93334d361ec19ec" name="result.phtml" role="magedesign" />
+        <file md5sum="6222566c51093557e1de7c363dd8169f" name="search.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/tag -->
+       <dir name="wishlist">
+        <dir name="email">
+         <file md5sum="546c2d345323aaebe27a23d5c838a3e2" name="items.phtml" role="magedesign" />
+         <file md5sum="fe00d171bdd383f4fbf97bf1de054a41" name="rss.phtml" role="magedesign" />
+        </dir> <!-- //frontend/default/blank/template/wishlist/email -->
+        <file md5sum="83dfab61444198fe1c7c0fca357865dc" name="shared.phtml" role="magedesign" />
+        <file md5sum="8e6eaab32df988a6b1732dffa8af2709" name="sharing.phtml" role="magedesign" />
+        <file md5sum="2cae9770f689258e7f6fa0e9413f16e8" name="sidebar.phtml" role="magedesign" />
+        <file md5sum="1edc4f60ff32a5bfa800e7b71d067383" name="view.phtml" role="magedesign" />
+       </dir> <!-- //frontend/default/blank/template/wishlist -->
+      </dir> <!-- //frontend/default/blank/template -->
+      <file md5sum="88733ee53676a47fc354a61c32516e82" name="favicon.ico" role="mageskin" />
+     </dir> <!-- //frontend/default/blank -->
+    </dir> <!-- //frontend/default -->
+   </dir> <!-- //frontend -->
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+    <max>6.0.0</max>
+    <exclude>6.0.0</exclude>
+   </php>
+   <pearinstaller>
+    <min>1.6.2</min>
+   </pearinstaller>
+   <package>
+    <name>Mage_Core_Modules</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.3.2.2</min>
+    <max>1.3.3</max>
+    <exclude>1.3.3</exclude>
+   </package>
+  </required>
+ </dependencies>
+ <phprelease />
+</package>
