@@ -253,11 +253,11 @@ dd.even { background-color:#f6f6f6; }
 
 
 /* Header ================================================================================ */
-.logo { float:left; width:200px; height:63px; overflow:hidden; } 
+.logo { float:left; width:200px; height:110px; overflow:hidden; margin-top:5px; } 
 .header-container {}
-.header { padding:10px; border:1px solid #ddd; }
+.header { padding:10px; border:0px solid #ddd; }
 .header .logo { background-position:0 0; background-repeat:no-repeat; text-indent:-999em; }
-.header .logo a { display:block; width:200px; height:63px; }
+.header .logo a { display:block; width:200px; height:110px; }
 .header .welcome-msg { font-weight:bold; text-align:right; }
 .header .links { float:right; }
 .header .form-search { text-align:center; }
