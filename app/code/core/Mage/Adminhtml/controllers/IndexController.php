@@ -18,10 +18,10 @@
  * versions in the future. If you wish to customize Magento for your
  * needs please refer to http://www.magentocommerce.com for more information.
  *
- * @category   Mage
- * @package    Mage_Adminhtml
- * @copyright  Copyright (c) 2008 Irubin Consulting Inc. DBA Varien (http://www.varien.com)
- * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @category    Mage
+ * @package     Mage_Adminhtml
+ * @copyright   Copyright (c) 2009 Irubin Consulting Inc. DBA Varien (http://www.varien.com)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
 
@@ -37,20 +37,18 @@ class Mage_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Action
         $this->getResponse()->setBody($block->toHtml());
     }
 
+    /**
+     * Admin area entry point
+     * Always redirects to the startup page url
+     */
     public function indexAction()
     {
-        $url = Mage::getSingleton('admin/session')->getUser()->getStartupPageUrl();
-
+        $session = Mage::getSingleton('admin/session');
+        $url = $session->getUser()->getStartupPageUrl();
+        if ($session->isFirstPageAfterLogin()) { // retain the "first page after login" value in session (before redirect)
+            $session->setIsFirstPageAfterLogin(true);
+        }
         $this->_redirect($url);
-        return;
-
-        $this->loadLayout();
-        $block = $this->getLayout()->createBlock('adminhtml/template', 'system.info')
-            ->setTemplate('system/info.phtml');
-
-        $this->_addContent($block);
-
-        $this->renderLayout();
     }
 
     public function loginAction()
@@ -101,7 +99,13 @@ class Mage_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Action
                 $limit = $this->getRequest()->getParam('limit', 10);
                 $query = $this->getRequest()->getParam('query', '');
                 foreach ($searchModules->children() as $searchConfig) {
+
+                    if ($searchConfig->acl && !Mage::getSingleton('admin/session')->isAllowed($searchConfig->acl)){
+                        continue;
+                    }
+
                     $className = $searchConfig->getClassName();
+
                     if (empty($className)) {
                         continue;
                     }
@@ -146,7 +150,7 @@ class Mage_Adminhtml_IndexController extends Mage_Adminhtml_Controller_Action
 
     protected function _getDeniedJson()
     {
-        return Zend_Json::encode(
+        return Mage::helper('core')->jsonEncode(
             array(
                 'ajaxExpired'  => 1,
                 'ajaxRedirect' => $this->getUrl('*/index/login')
