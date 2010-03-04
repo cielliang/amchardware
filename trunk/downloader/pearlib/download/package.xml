@@ -1,87 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
-http://pear.php.net/dtd/tasks-1.0.xsd
-http://pear.php.net/dtd/package-2.0
-http://pear.php.net/dtd/package-2.0.xsd">
- <name><![CDATA[Locale_Mage_community_zh_CN]]></name>
- <channel>connect.magentocommerce.com/community</channel>
- <summary><![CDATA[Magento Community Modules -  Chinese Simplified (China) Language Pack]]></summary>
- <description><![CDATA[Magento Community Modules -  Chinese Simplified (China) Language Pack]]></description>
+<package packagerversion="1.7.1" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Mage_All_Latest</name>
+ <channel>connect.magentocommerce.com/core</channel>
+ <summary>Metapackage for latest Magento 1.4 release</summary>
+ <description>Metapackage for latest Magento 1.4 release</description>
  <lead>
-  <name>Magento Core</name>
-  <user>magentoadmin</user>
-  <email>magentoadmin@magentocommerce.com</email>
+  <name>Magento Core Team</name>
+  <user>core</user>
+  <email>core@magentocommerce.com</email>
   <active>yes</active>
  </lead>
- <date>2009-11-25</date>
- <time>05:31:28</time>
+ <date>2010-02-19</date>
+ <time>22:46:39</time>
  <version>
-  <release>1.2.0.0.3</release>
-  <api>1.0</api>
+  <release>1.4.0.1</release>
+  <api>1.4.0.1</api>
  </version>
  <stability>
-  <release>beta</release>
-  <api>beta</api>
+  <release>stable</release>
+  <api>stable</api>
  </stability>
- <license>AFL v3.0</license>
- <notes><![CDATA[Magento Community Modules -  Chinese Simplified (China) Language Pack]]></notes>
+ <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+ <notes>1.4.0.1</notes>
  <contents>
   <dir name="/">
-    <dir name="/zh_CN">
-      <file md5sum="2b93ca31f8de27ac2accac26f3b954de" name="Mage_Media.csv" role="magelocale" />
-      <file md5sum="da1d74dd5cb1468ddce461071a87e4ed" name="Mage_CatalogInventory.csv" role="magelocale" />
-      <file md5sum="d290189dba8dc0c2e2b122cf523c6f2b" name="Mage_Sendfriend.csv" role="magelocale" />
-      <file md5sum="fb2f5b49011b7f6a7787c9fd62249944" name="Mage_Bundle.csv" role="magelocale" />
-      <file md5sum="41830fd0b1e67a5416e2c7b6b705bf7c" name="Mage_GiftMessage.csv" role="magelocale" />
-      <file md5sum="0df99d04e90e2c59f5caa5ad60bd8c75" name="Mage_Wishlist.csv" role="magelocale" />
-      <file md5sum="a1eccdd827efa0ff16760f2030493774" name="Mage_Cron.csv" role="magelocale" />
-      <file md5sum="cd17e94788cd4059de36f335c8b9ac16" name="Mage_CatalogSearch.csv" role="magelocale" />
-      <file md5sum="f7cb275cb5dd31876033dba2521f3445" name="Mage_Shipping.csv" role="magelocale" />
-      <file md5sum="cb106e0b376e54f0113e92a6197b6af5" name="Mage_Eav.csv" role="magelocale" />
-      <file md5sum="929b65365d39ada9137d6e7e377d1e76" name="Mage_Adminhtml.csv" role="magelocale" />
-      <file md5sum="7e3a046b84fb8178f6b2b4ba1a40bde5" name="Mage_Api.csv" role="magelocale" />
-      <file md5sum="46c24dc7852daa987d01b15685e63e38" name="Mage_Customer.csv" role="magelocale" />
-      <file md5sum="e4d865f13839597648735c84bb981239" name="Mage_SalesRule.csv" role="magelocale" />
-      <file md5sum="004c29394d853af186285f0ac89940d4" name="Mage_Email_Templates.csv" role="magelocale" />
-      <file md5sum="6bea308ceb4e72675d4afeb8639fe527" name="Mage_Poll.csv" role="magelocale" />
-      <file md5sum="dcbf1ca9ea90451aab295bdef7c6fd1c" name="Mage_Contacts.csv" role="magelocale" />
-      <file md5sum="e6b0918e770bda316bcab4cbce811a05" name="Mage_Newsletter.csv" role="magelocale" />
-      <file md5sum="19697f7399ef4e9e4e6ad0f0bf0357c7" name="Mage_Install.csv" role="magelocale" />
-      <file md5sum="a8d0a34e54b2d6537484200429fab38d" name="Mage_Checkout.csv" role="magelocale" />
-      <file md5sum="f49a95d4df10c4cd6f2c3e1dd25957e4" name="Mage_GoogleBase.csv" role="magelocale" />
-      <file md5sum="e01531f6e418228ab0dd70a6c7289d3c" name="Mage_Rule.csv" role="magelocale" />
-      <file md5sum="9091aba61f426ef38fe5af37ced6e166" name="Mage_Payment.csv" role="magelocale" />
-      <file md5sum="d0e89cb72c643ee0afb4b830e9094de4" name="Mage_Core.csv" role="magelocale" />
-      <file md5sum="5ab3e11716618b617aa7ef66bdb7bf51" name="Mage_Directory.csv" role="magelocale" />
-      <file md5sum="61ce6b85ee745b6a53c897ba71425783" name="Mage_Rss.csv" role="magelocale" />
-      <file md5sum="08ea8e5a40b9f3f661a78062d214df67" name="Mage_ProductAlert.csv" role="magelocale" />
-      <file md5sum="b5bbdd01137886949b8a810d152c4401" name="Mage_PaypalUk.csv" role="magelocale" />
-      <file md5sum="71509efd944464ebfc92cbb74adce1e1" name="Mage_Downloadable.csv" role="magelocale" />
-      <file md5sum="958fb3e2ddd57402824790d98734c811" name="Mage_Tax.csv" role="magelocale" />
-      <file md5sum="0b17e5e1578e0f0264d883867f26e639" name="Mage_GoogleAnalytics.csv" role="magelocale" />
-      <file md5sum="f589b5cfc46e9f78914b7622b1520883" name="Mage_CatalogRule.csv" role="magelocale" />
-      <file md5sum="eb505a1c9c48f2241cdfd39fac2cee34" name="Mage_Review.csv" role="magelocale" />
-      <file md5sum="ad2471e38ea90761b5aa9aac205a7958" name="Mage_Dataflow.csv" role="magelocale" />
-      <file md5sum="d6911bbf482ab9a5631791f89d227767" name="Mage_GoogleCheckout.csv" role="magelocale" />
-      <file md5sum="b7d0e1f112381fa271482e5e620b8c91" name="Mage_Tag.csv" role="magelocale" />
-      <file md5sum="29c3e8df3fe57a02c1c1d4ba1da95611" name="Mage_Reports.csv" role="magelocale" />
-      <file md5sum="23d0262bde7f649a3671ac01ee80e71f" name="Mage_Usa.csv" role="magelocale" />
-      <file md5sum="088b1f41639c4c844580db7ba7693cca" name="Mage_GoogleOptimizer.csv" role="magelocale" />
-      <file md5sum="a93ad255a0484f070e0117086c179cc4" name="Mage_Sales.csv" role="magelocale" />
-      <file md5sum="1888b98cc79939efd18a0037f8dc89e1" name="Mage_AdminNotification.csv" role="magelocale" />
-      <file md5sum="08387c9dd6031f0a8f4c30822d879d95" name="Mage_Rating.csv" role="magelocale" />
-      <file md5sum="7763506a044be781b3f505ec790a45b3" name="Mage_Paypal.csv" role="magelocale" />
-      <file md5sum="e3ec4c69b394a13a17a780bd2a1a1590" name="Mage_Page.csv" role="magelocale" />
-      <file md5sum="328232df1384dbc5427b086a2733ce93" name="Mage_Backup.csv" role="magelocale" />
-      <file md5sum="c1985363b076b0d2a9b901fc2656fa60" name="Mage_Sitemap.csv" role="magelocale" />
-      <file md5sum="c8af04349b6b9d95fc5f70f75b6121c4" name="Mage_Cms.csv" role="magelocale" />
-      <file md5sum="56451f73bfa88e596b200e54ed7c5559" name="Mage_Paygate.csv" role="magelocale" />
-      <file md5sum="2ae34a503f7205ca775df1aaa80820de" name="Mage_Weee.csv" role="magelocale" />
-      <file md5sum="6aa9c0b917b0dcc05bc5a9fd5cd3fdcf" name="Mage_Catalog.csv" role="magelocale" />
-      <file md5sum="1ab1ddd7ec6ae0e09f5c09ba60ef8386" name="Mage_Strikeiron.csv" role="magelocale" />
-  </dir>
-</dir>
-</contents>
+   <dir name="pkginfo">
+    <file md5sum="1286e940f547efd8cd12b69a2b32fae0" name="Mage_All_Latest.txt" role="mage" />
+   </dir> <!-- //pkginfo -->
+  </dir> <!-- / -->
+ </contents>
  <dependencies>
   <required>
    <php>
@@ -92,6 +42,60 @@ http://pear.php.net/dtd/package-2.0.xsd">
    <pearinstaller>
     <min>1.6.2</min>
    </pearinstaller>
+   <package>
+    <name>Mage_Core_Modules</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.4.0.1</min>
+    <max>1.4.0.1</max>
+   </package>
+   <package>
+    <name>Mage_Core_Adminhtml</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.4.0.1</min>
+    <max>1.4.0.1</max>
+   </package>
+   <package>
+    <name>Interface_Adminhtml_Default</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.4.0.1</min>
+    <max>1.4.0.1</max>
+   </package>
+   <package>
+    <name>Interface_Frontend_Default</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.4.0.0</min>
+    <max>1.4.0.0</max>
+   </package>
+   <package>
+    <name>Interface_Install_Default</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.4.0.1</min>
+    <max>1.4.0.1</max>
+   </package>
+   <package>
+    <name>Mage_Downloader</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.4.0.0</min>
+    <max>1.4.0.0</max>
+   </package>
+   <package>
+    <name>Mage_Centinel</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.4.0.0</min>
+    <max>1.4.0.0</max>
+   </package>
+   <package>
+    <name>Interface_Frontend_Base_Default</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.4.0.1</min>
+    <max>1.4.0.1</max>
+   </package>
+   <package>
+    <name>Phoenix_Moneybookers</name>
+    <channel>connect.magentocommerce.com/core</channel>
+    <min>1.2</min>
+    <max>1.2</max>
+   </package>
   </required>
  </dependencies>
  <phprelease />
